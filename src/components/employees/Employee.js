@@ -28,12 +28,11 @@ class Employee extends Component {
                         </select> 
                         <button className="employee__change">Change</button> 
                         <input type="text" placeholder="Enter staff name here" className='employee__input'/>
-                        <img src={Search} alt='Search' className='employee__find' />
+                        {/* <img src={Search} alt='Search' className='employee__find' /> */}
                      
-                        
                     </div>
                     <div>
-                        <Link to="/newpost" className="employee__header">Add New</Link>
+                    
                     </div>
                 </div>
                 <EmployeeTable />

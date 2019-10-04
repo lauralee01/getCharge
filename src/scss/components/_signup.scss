@@ -1,0 +1,191 @@
+.signup {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+    @media only screen and (min-width: 300px){
+        #signup {
+            &__input {
+                width: 100%;
+                border: none;
+                border-bottom: 1px solid #E6E7EB;
+                outline: none;
+            }
+        }
+        
+        
+        html{
+            box-sizing: border-box;
+            font-size: 70%;
+            overflow-x: hidden;
+        }
+        body {
+            padding: 0;
+            margin: 0;
+            overflow-x: hidden;
+            background-color: #F5F7F9;
+        }
+
+    }
+
+    &__first {
+        background-image: url('../../images/getchange.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex: 0 0 50%;
+        position: relative;
+    }
+    &__hassles {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        /* identical to box height, or 150% */
+
+        text-align: center;
+        letter-spacing: -0.578824px;
+
+        color: #FFFFFF;
+        position: absolute;
+        bottom: 4rem;
+        left: 15rem;
+        text-align: center;
+    }
+    &__hassle3 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        /* or 150% */
+
+        text-align: center;
+        letter-spacing: -0.578824px;
+
+        color: #FFFFFF;
+        position: absolute;
+        bottom: 2rem;
+        left: 15rem;
+
+    }
+    &__second {
+        padding: 3rem 2rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+    &__free {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 46px;
+        letter-spacing: 0.4px;
+        color: #013C61;
+
+    }
+    &__register {
+        text-align: left;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    &__registered {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: -0.102857px;
+        color: #013C61
+    }
+    &__signin {
+        color: #2BDA53;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: -0.102857px;
+    }
+    &__form {
+        width: 500px;
+        background: #FFFFFF;
+        box-shadow: 0px 20px 50px #EAEEE9;
+        border-radius: 5px;
+        padding: 1.5rem;
+        margin-top: 1rem;
+        position: relative;
+        padding-bottom: 7rem;
+    }
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__label {
+        display: block;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: #6A7E8A;
+        padding-bottom: 0.5rem;
+        text-align: left;
+    }
+    &__input {
+        border: none;
+        border-bottom: 1px solid #E6E7EB;
+        width: 220px;
+        padding-bottom: 1rem;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: -0.114286px;
+        color: #013C61;
+        outline: none;
+    }
+    &__box {
+        position: relative;
+        margin-top: 1.5rem;
+    }
+    &__icon {
+        position: absolute;
+        bottom: 0.5rem;
+        right: 0;
+    }
+    &__btn {
+        background: #2BDA53;
+        border-radius: 3px;
+        width: 118px;
+        height: 34px;
+        text-align: center;
+        border: none;
+        margin-right: 1rem;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__button {
+        position: absolute;
+        bottom: 2rem;
+        right: 1rem;
+    }
+}
+#signup {
+    &__input {
+        width: 480px;
+        border: none;
+        border-bottom: 1px solid #E6E7EB;
+        outline: none;
+    }
+}
+
