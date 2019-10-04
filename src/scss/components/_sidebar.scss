@@ -7,9 +7,6 @@
     display: flex;
     flex-direction: column;
     position: fixed;
-    z-index: 1;
-    top: 0; 
-    left: 0;
 
     &__cover {
         padding: 2rem;
@@ -18,27 +15,9 @@
         padding-right: 0.7rem;
         cursor: pointer;
     }
-    &__image:hover{
-        background: #022B8C;
-        border-radius: 6px 0px 0px 6px;
-    }
-    &__image:active {
-        background: #022B8C;
-        border-radius: 6px 0px 0px 6px;
-    }
+    
     &__flex {
-        margin: 2rem 0;
-    }
-    &__link {
-        text-decoration: none;
-        font-family: 'BentonSans-Medium';
-        font-size: 16px;
-        line-height: 20px;
-        color: #FFFFFF;
-
-    }
-    &__container {
-        padding-top: 5rem;
+        margin: 3rem 0;
     }
 }
 #sidebar {

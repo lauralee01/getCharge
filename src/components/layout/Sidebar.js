@@ -11,10 +11,10 @@ const Sidebar = () => {
                         <img src={Home} alt="House" className="sidebar__image" />
                     </div>
                     <div className="sidebar__flex">
-                        <img src={Users} alt="House" className="sidebar__image" id='sidebar__hide' />
+                        <img src={Users} alt="House" className="sidebar__image" />
                     </div>
                     <div className="sidebar__flex">
-                        <img src={Users} alt="House" className="sidebar__image" id='sidebar__hide' />
+                        <img src={Cards} alt="House" className="sidebar__image" />
                     </div>
                 </div>
             </div>
