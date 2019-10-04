@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fad4d184.chunk.css",
+    "main.js": "/static/js/main.09f02f65.chunk.js",
+    "main.js.map": "/static/js/main.09f02f65.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a7fefa9a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a7fefa9a.js.map",
+    "static/js/2.786947a6.chunk.js": "/static/js/2.786947a6.chunk.js",
+    "static/js/2.786947a6.chunk.js.map": "/static/js/2.786947a6.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.905aa32a6581ad1e562d6fc8e20c159f.js": "/precache-manifest.905aa32a6581ad1e562d6fc8e20c159f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.fad4d184.chunk.css.map": "/static/css/main.fad4d184.chunk.css.map",
+    "static/media/Back.svg": "/static/media/Back.3345377b.svg",
+    "static/media/Bitmap.svg": "/static/media/Bitmap.945e124e.svg",
+    "static/media/Cancel.svg": "/static/media/Cancel.db573d53.svg",
+    "static/media/Device.png": "/static/media/Device.99029d81.png",
+    "static/media/main.scss": "/static/media/Login.e17ac5f7.png",
+    "static/media/UserImage.png": "/static/media/UserImage.93312f47.png",
+    "static/media/admin.png": "/static/media/admin.646b5242.png",
+    "static/media/bluearr.svg": "/static/media/bluearr.486c418b.svg",
+    "static/media/deep.png": "/static/media/deep.046a5117.png",
+    "static/media/downarr.svg": "/static/media/downarr.2e136d3c.svg",
+    "static/media/download.svg": "/static/media/download.2fd78b2d.svg",
+    "static/media/giphy.webp": "/static/media/giphy.da7482ba.webp",
+    "static/media/house.svg": "/static/media/house.85e4afb3.svg",
+    "static/media/icon.svg": "/static/media/icon.c59134ac.svg",
+    "static/media/orange.png": "/static/media/orange.39af5d81.png",
+    "static/media/purple.png": "/static/media/purple.8aa408fc.png",
+    "static/media/stanback.svg": "/static/media/stanback.bc896ffc.svg",
+    "static/media/white.svg": "/static/media/white.9c5e8d68.svg"
+  }
+}

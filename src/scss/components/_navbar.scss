@@ -1,0 +1,50 @@
+.navbar {
+    background: #FFFFFF;
+    border: 1px solid rgba(106, 126, 138, 0.1);
+    box-sizing: border-box;
+
+    &__cover {
+        display: flex;
+        position: relative;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        background: #FFFFFF;
+        border: 1px solid rgba(106, 126, 138, 0.1);
+        box-sizing: border-box;
+    }
+    &__position {
+        position: absolute;
+        top: 4rem;
+        right: 4.5rem;
+        z-index: 50;
+    }
+    &__list {
+        list-style: none;
+        padding-right: 2rem;
+    }
+    &__icon {
+        cursor: pointer;
+    }
+    &__text {
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+        padding-right: 0.3rem;
+        letter-spacing: -0.251429px;
+        color: #013C61;
+        
+    }
+    
+    &__arrow {
+        padding-left: 0.5rem;
+        cursor: pointer;
+    }
+    &__place {
+        padding-left: 0.3rem;
+    }
+   
+}
